@@ -17,13 +17,25 @@ const Footer = () => {
       <img src={Wave} alt="..." />
       <div className="f-content">
         <div className="f-icons">
-          <a href="#" target="_blank" rel="noopener noreferer">
+          <a
+            href="//www.facebook.com/groups/679118292154219"
+            target="_blank"
+            rel="noopener noreferer"
+          >
             <FaFacebookF />
           </a>
-          <a href="#" target="_blank" rel="noopener noreferer">
+          <a
+            href="//mobile.twitter.com/tvp_kultura/status/707853680016543744"
+            target="_blank"
+            rel="noopener noreferer"
+          >
             <FaTwitter />
           </a>
-          <a href="#" target="_blank" rel="noopener noreferer">
+          <a
+            href="//pl.pinterest.com/teatrmuzyczny/skrzypek-na-dachu-fot-micha%C5%82-matuszak"
+            target="_blank"
+            rel="noopener noreferer"
+          >
             <FaPinterestP />
           </a>
         </div>
