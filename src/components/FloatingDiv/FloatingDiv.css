@@ -1,0 +1,26 @@
+.floatingdiv {
+  justify-content: center;
+  display: flex;
+  background: var(--white);
+  box-shadow: var(--boxShadow);
+  border-radius: 17px;
+  /* align-items: center; */
+  padding: 5px 10px;
+  height: 4.5rem;
+  width: max-content;
+}
+.floatingdiv > img {
+  transform: scale(0.9);
+}
+.floatingdiv > span {
+  font-size: 17px;
+  font-family: "Grenze Gotisch", cursive;
+  margin-left: 1rem;
+  color: black;
+}
+
+@media screen and (max-width: 480px) {
+  .floatingdiv {
+    display: none;
+  }
+}

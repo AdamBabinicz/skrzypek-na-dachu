@@ -1,43 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="%PUBLIC_URL%/10.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
-      name="description"
-      content="Web site created using create-react-app"
+      name="DESCRIPTION"
+      content="'Skrzypek na dachu' znany jest przede wszystkim dzięki swojej warstwie muzycznej. To właśnie z przedstawienia pochodzą piosenki 'Gdybym był bogaczem', 'To świt, to noc', 'Kwiatku mój' oraz finałowa 'Anatewka'."
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <meta
+      name="Próbne przedstawienia musicalu odbyły się w lipcu i sierpniu 1964 roku w Fisher Theatre w Detroit oraz w National Theatre w Waszyngtonie. Gdy okazało się, że 'Skrzypek na dachu' ma szansę odnieść sukces, zdecydowano się go przenieść na Broadway, gdzie 22 września 1964 roku zadebiutował w Imperial Theatre."
+      content="index, follow"
+    />
+    <meta name="handheldFriendly" content="true" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Widownia była do tego stopnia zachwycona musicalem, że utrzymał się on na afiszach przez prawie dziesięć lat – w tym czasie wystawiano go ponad trzy tysiące razy."
+    />
+    <meta property="og:url" content="https://stop-putin.netlify.app" />
+    <meta property="og:image" content="https://stop-putin.netlify.app/8.png" />
+    <meta property="fb:app_id" content="" />
+    <meta property="og:image:width" content="800" />
+    <meta property="og:image:height" content="1200" />
+    <meta
+      property="business:contact_data:street_address"
+      content="'Skrzypek na dachu' spotkał się również z uznaniem krytyków – spektakl uzyskał aż dziesięć nagród Tony, uznawanych za teatralne odpowiedniki słynnych Oskarów."
+    />
+    <meta
+      property="business:contact_data:locality"
+      content="Premiera pierwszej polskiej wersji przedstawienia odbyła się w Teatrze Muzycznym w Łodzi w 1983 roku. Od tej pory 'Skrzypek na dachu' był prezentowany na różnych scenach polskich teatrów ponad trzydzieści razy. "
+    />
+    <meta
+      property="business:contact_data:region"
+      content="W 1971 roku odbyła się premiera filmowej adaptacji 'Skrzypka na dachu' w reżyserii Normana Jewisona. Produkcja otrzymała trzy statuetki Amerykańskiej Akademii Sztuki i Wiedzy Filmowej (Oscary), w tym jedną za najlepszy dźwięk."
+    />
+    <meta property="business:contact_data:postal_code" content="61000–61499" />
+    <meta
+      property="business:contact_data:country_name"
+      content="Nie jest to ani nowa, ani modna sztuka. Brak w niej przemocy i wulgaryzmów, które tak często pojawiają się we współczesnych spektaklach. Mimo to 'Skrzypek na dachu' nie traci na popularności. Na scenie Teatru Rozrywki jest grany od prawie 16 lat."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:site"
+      content="https://twitter.com/BeataKempa_MEP/status/1509545208018522112"
+    />
+    <meta
+      name="twitter:title"
+      content="„Człowiek bez tradycji byłby jak ten skrzypek na dachu, niepewny i drżący”"
+    />
+    <meta
+      name="twitter:description"
+      content="Końcówka XIX wieku, carskie imperium rosyjskie, wioska Anatewka gdzieś na terytorium dzisiejszej Ukrainy. Społeczności żydowska i ukraińska mieszkają po sąsiedzku, ale trzymają się na dystans i nie wchodzą ze sobą w interakcje. Poczciwy mleczarz Tewje nie dorobił się majątku i nie doczekał wymarzonego syna. Całą miłość przelewa więc na swoje córki: mimo ograniczonych środków stara się im zapewnić szczęście, rozumiane zgodnie z ówczesną obyczajowością jako znalezienie dla każdej z nich bogatego i poważanego męża."
+    />
+    <meta name="twitter:image" content="https://stop-putin.netlify.app/4.png" />
+    <meta name="twitter:image:alt" content="" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/14.png" />
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <title>Skrzypek na dachu</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <div id="modal"></div>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org/",
+        "@type": "VideoObject",
+        "name": "Izraelski aktor, ze swoją potężną posturą, szczerą twarzą i wyrazistym spojrzeniem, nadał postaci ubogiego mleczarza pełen wymiar emocji.",
+        "contentUrl": "https://pl-pl.facebook.com/AmbasadaUkrainywPolsce",
+        "duration": "PT00H04M33S",
+        "thumbnailUrl": "https://stop-putin.netlify.app/18.jpg",
+        "uploadDate": "2022-04-27",
+        "description": "W zależności od tego, czego wymaga dana scena, jest zażywny, wybuchowy, sprytny, cwany, dobroduszny, sterany życiem, złamany, pełen rozpaczy."
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Blog",
+        "url": "https://stop-putin.netlify.app"
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "name": "Pcha swój rozwalający się wózek pełen mleka z cichą godnością, w pogodzeniu ze swoim losem. Trzyma się swoich wierzeń i zasad kurczowo, jako fundamentu, na którym opiera się jego zmienne życie, a jednocześnie z miłości do córek zgadza się na rzeczy niezwykle postępowe i sprzeczne z kodeksem ortodoksyjnej społeczności sztetla.",
+        "url": "https://stop-putin.netlify.app",
+        "sameAs": [
+          "https://m.facebook.com/WirtualnaPolska/videos/wojna-na-ukrainie/288683973210839",
+          "https://mobile.twitter.com/nawschodzie2022",
+          "https://pl.wikipedia.org/wiki/Inwazja_Rosji_na_Ukrain%C4%99_(2022)",
+          "https://www.youtube.com/watch?v=q-1k9oYCB9c",
+          "https://pl.pinterest.com/pin/601371356505165247"
+        ]
+      }
+    </script>
   </body>
 </html>
