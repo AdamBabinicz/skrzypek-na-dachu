@@ -99,9 +99,8 @@
     overflow: hidden;
     margin-bottom: 4rem;
     padding: 1rem;
-    padding-bottom: 2rem;
-    height: max-content;
-    background: red;
+    max-height: 100%;
+    border: none;
   }
   .testimonial > img {
     width: 70px;
