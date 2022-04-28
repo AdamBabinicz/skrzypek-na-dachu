@@ -105,4 +105,8 @@
     width: 100%;
     margin: 0;
   }
+  .swiper-pagination > .swiper-pagination-bullet {
+    margin-top: 4rem !important;
+    background: red;
+  }
 }
