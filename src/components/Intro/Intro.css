@@ -46,9 +46,10 @@
 }
 .i-icons > a > svg {
   transition: all 0.4s ease-in-out;
+  margin-right: 1rem;
 }
 .i-icons > a > svg:hover {
-  transform: scale(0.5);
+  transform: scale(0.7);
   opacity: 0.7;
 }
 .i-right {
