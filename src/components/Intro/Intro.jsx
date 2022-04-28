@@ -54,8 +54,7 @@ const Intro = () => {
             amerykanista Stephen J. Whitfield w swoim artykule "Fiddling with
             Sholem Alcheim. A history of «Fiddler on the Roof»"– nawiązuje do
             obrazów impresjonisty Marca Chagalla "The Fiddler" z 1912 roku i
-            "Green Violonist" z 1924. Dzieła malarza zainspirowały również
-            Borisa Aronsona do stworzenia scenografii.
+            "Green Violonist" z 1924.
           </p>
           <br />
           <p>
