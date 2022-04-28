@@ -57,11 +57,6 @@ const Works = () => {
             nie chcą się jednak zgodzić na zaaranżowane małżeństwa – według nich
             związek powinien się przede wszystkim opierać na uczuciu.
           </p>
-          <p>
-            Tymczasem Imperium Rosyjskie musi zmierzyć się z szeregiem
-            zachodzących zmian politycznych i społecznych - do głosu zaczynają
-            dochodzić komuniści, a także wybucha rewolucja 1905 roku.
-          </p>
           <br />
           <p>
             <em>
@@ -80,19 +75,24 @@ const Works = () => {
       >
         <div className="w-mainCircle">
           <div className="w-secCircle">
-            <img src={img2} alt="..." />1
+            <img src={img2} alt="..." />
+            <p style={{ color: darkMode ? "var(--black)" : "" }}>1</p>
           </div>
           <div className="w-secCircle">
-            <img src={img1} alt="..." />2
+            <img src={img1} alt="..." />
+            <p style={{ color: darkMode ? "var(--black)" : "" }}>2</p>
           </div>
           <div className="w-secCircle">
-            <img src={img} alt="..." />3
+            <img src={img} alt="..." />
+            <p style={{ color: darkMode ? "var(--black)" : "" }}>3</p>
           </div>
           <div className="w-secCircle">
-            <img src={img3} alt="..." />4
+            <img src={img3} alt="..." />
+            <p style={{ color: darkMode ? "var(--black)" : "" }}>4</p>
           </div>
           <div className="w-secCircle">
-            <img src={img4} alt="..." />5
+            <img src={img4} alt="..." />
+            <p style={{ color: darkMode ? "var(--black)" : "" }}>5</p>
           </div>
         </div>
         <div className="w-backCircle blueCircle"></div>

@@ -52,6 +52,7 @@
   .nav-links {
     display: none;
   }
+
   .nav-links-sidebar {
     position: fixed;
     display: flex;
@@ -62,7 +63,6 @@
     top: 0;
     bottom: 0;
     right: 0;
-    transition: all 0.5s;
     width: 100%;
     /* max-height: content; */
     z-index: 3;
