@@ -94,6 +94,7 @@
     -webkit-line-clamp: 10;
     -webkit-box-orient: vertical;
     overflow: hidden;
+    margin-bottom: 4rem;
   }
   .testimonial > img {
     width: 70px;
@@ -105,7 +106,10 @@
     width: 100%;
     margin: 0;
   }
+  .swiper-pagination {
+    display: flex;
+    justify-content: space-around;
+  }
   .swiper-pagination > .swiper-pagination-bullet {
-    margin-top: 4rem !important;
   }
 }
