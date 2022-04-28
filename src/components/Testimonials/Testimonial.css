@@ -89,12 +89,16 @@
     /* height: max-content; */
     max-height: 100%;
   }
+  /* .t-wrapper .swiper {
+    height: 100%;
+  } */
   .testimonial {
     display: -webkit-box;
     -webkit-line-clamp: 10;
     -webkit-box-orient: vertical;
     overflow: hidden;
     margin-bottom: 4rem;
+    height: max-content;
   }
   .testimonial > img {
     width: 70px;
