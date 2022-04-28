@@ -43,7 +43,5 @@
 @media screen and (max-width: 480px) {
   .f-content {
     width: max-content;
-    transform: scale(0.5);
-    background: red;
   }
 }
