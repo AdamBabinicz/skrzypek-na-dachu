@@ -98,7 +98,10 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
     margin-bottom: 4rem;
+    padding: 1rem;
+    padding-bottom: 2rem;
     height: max-content;
+    background: red;
   }
   .testimonial > img {
     width: 70px;
