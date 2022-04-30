@@ -31,13 +31,13 @@ const Testimonial = () => {
     {
       img: img3,
       review:
-        "„Skrzypek na dachu” to tak naprawdę opowieść o każdym. Każdy ma w sobie Tewjego, który „dzień po dniu na dom zarabiać musi”, a po cichu marzy, by „być bogaczem”. Każdy w trudnych chwilach w duchu modli się, by Bóg „zechciał sprawić cud”. Każdy obserwuje życie i nie pojmuje, „jak się dzisiaj zmienia świat”. I każdy równie mocno jak Tewje marzy o tym, by szczęśliwie żyć. Te wszystkie elementy właściwie przesądzają o tym, że niezależnie od tysiąca recenzji dobrych i złych, i nawet pozostając w konwencji sprzed 25 lat „Skrzypek na dachu” jest skazany na sukces. A każdy sukces warto powtarzać.",
+        "„Skrzypek na dachu” to tak naprawdę opowieść o każdym. Każdy ma w sobie Tewjego, który „dzień po dniu na dom zarabiać musi”, a po cichu marzy, by „być bogaczem”. Każdy w trudnych chwilach w duchu modli się, by Bóg „zechciał sprawić cud”. Każdy obserwuje życie i nie pojmuje, „jak się dzisiaj zmienia świat”. I każdy równie mocno jak Tewje marzy o tym, by szczęśliwie żyć. Te wszystkie elementy właściwie przesądzają o tym, że „Skrzypek na dachu” jest skazany na sukces.",
       author: "Martyna Pietras",
     },
     {
       img: img4,
       review:
-        "Wraz z izraelskim aktorem Chaimem Topolem stworzyli niezapomnianą wizję małej Anatewki - miejscowości w carskiej Rosji, w której żydowska społeczność od lat żyje zajęta swoimi problemami, zamknięta na obcych i ich sprawy. Głównym oparciem w życiu zacnego, ale i niepozbawionego wad Tewje Mleczarza jest tradycja, której nakazy coraz częściej kłócą się z otaczającym go światem. Kiedy dorastające córki zaczną dobierać narzeczonych inaczej, niż chciałaby tego zawodowa swatka, rozśpiewanemu ojcu przyjdzie wybierać pomiędzy zwyczajami przodków a miłością do córek. Trzy Oscary i kolekcja niezapomnianych piosenek.",
+        "Wraz z izraelskim aktorem Chaimem Topolem stworzyli niezapomnianą wizję małej Anatewki - miejscowości w carskiej Rosji, w której żydowska społeczność od lat żyje zajęta swoimi problemami, zamknięta na obcych i ich sprawy. Głównym oparciem w życiu zacnego, ale i niepozbawionego wad Tewje Mleczarza jest tradycja, której nakazy coraz częściej kłócą się z otaczającym go światem. [...], ojcu przyjdzie wybierać pomiędzy zwyczajami przodków a miłością do córek.",
       author: "Maria Szilagyi",
     },
   ];
